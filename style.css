@@ -13,24 +13,25 @@ body {
     padding: 0;
 }
 
-header {
+header section {
     background-image: url(./Images/background.png);
     background-size: cover;
     image-rendering: auto;
     color: white;
     width: 100%;
-    height: auto;
+    height: 100%;
+    padding-bottom: 50px;
 }
 
 
-header nav {
+header section nav {
     display: flex;
     align-items: center;
     padding-top: 50px;
     gap: 300px;
 }
 
-header nav h1 {
+header section nav h1 {
     font-family: "Playfair Display", serif;
     font-size: 32px;
     margin: 0;
@@ -38,25 +39,25 @@ header nav h1 {
     font-weight: bold;
 }
 
-header nav ul {
+header section nav ul {
     list-style: none;
     display: flex;
     gap: 45px;
 }
 
-header nav img {
+header section nav img {
     display: flex;
     justify-content: end;
 }
 
-header nav ul li a {
+header section nav ul li a {
     list-style: none;
     text-decoration: none;
     color: white;
     font-family: "PoppinsMedium", sans-serif;
 }
 
-header h2 {
+header section h2 {
     font-family: "Outfit", sans-serif;
     font-size: 20px;
     letter-spacing: 20%;
@@ -65,7 +66,7 @@ header h2 {
     padding: 140px 0 0 150px;
 }
 
-header h3 {
+header section h3 {
     font-family: "Playfair Display", serif;
     font-weight: bold;
     font-size: 72px;
@@ -77,7 +78,7 @@ header h3 {
     padding: 30px 0 46px 150px;
 }
 
-header p {
+header section p {
     font-family: "Outfit", sans-serif;
     font-size: 18px;
     width: 431px;
@@ -86,17 +87,26 @@ header p {
     padding: 0 150px;
 }
 
-header .btn a {
+header section .btn a {
     margin: 46px 0 0 150px;
-    font-size: 18px;
-    border: 1px solid white;
-    background-color: white;
     padding: 10px 20px;
+    font-size: 18px;
     font-family: "Outfit", sans-serif;
-    color: black;
+    color: #30261C;
+    font-weight: 500;
     text-decoration: none;
     display: block;
-    height: 55px;
-    width: 170px;
-    border-radius: 20%;
+    height: 30px;
+    width: 130px;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header section .btn a:hover {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
 }
