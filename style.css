@@ -87,7 +87,7 @@ header section.haut p {
     padding: 0 150px;
 }
 
-header section.haut .btn a {
+header section.haut .btn1 a {
     margin: 46px 0 0 150px;
     padding: 10px 20px;
     font-size: 18px;
@@ -99,22 +99,125 @@ header section.haut .btn a {
     height: 30px;
     width: 130px;
     background-color: white;
+    border: 1px solid transparent;
     border-radius: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-header section.haut .btn a:hover {
+header section.haut .btn1 a:hover {
     background-color: transparent;
     color: white;
     border: 1px solid white;
 }
+
 header section.bas {
     margin: 0;
     padding: 50px 300px;
-    background-color:#E2D9C8;
+    background-color: #E2D9C8;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    background-color: #F1F0EE;
+}
+
+main h2 {
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    font-size: 32px;
+    letter-spacing: 4%;
+    text-align: center;
+    color: #30261C;
+    width: 100%;
+    margin: 0;
+    padding: 70px;
+}
+
+.group1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+
+}
+
+main div article {
+    display: flex;
+    flex-direction: column;
+    border: 1.5px solid #E2D9C8;
+    background-color: rgb(226, 217, 200, 20%);
+    gap: 20px;
+    width: 334px;
+    height: auto;
+    margin: 0;
+    padding: 15px;
+    border-radius: 18px;
+}
+
+main div article img {
+    width: 334px;
+    height: auto;
+}
+
+main div article h3 {
+    font-family: "Outfit", serif;
+    font-weight: 600;
+    font-size: 38px;
+    color: #30261C;
+    margin: 0;
+    padding: 0;
+}
+
+main div article h4 {
+    font-family: "Outfit", serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: #2A0000;
+    width: 80%;
+    margin: 0;
+}
+
+main div article div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between  ;
+}
+
+main div article div p {
+    font-family: "PoppinsMedium", serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #2A0000;
+    width: 80%;
+    margin: 0;
+}
+
+main div article div .btn2 a {
+    font-size: 14px;
+    font-family: "Outfit", sans-serif;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    display: block;
+    height: 40px;
+    width: 130px;
+    background-color: #2A0000;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main div article div .btn2 a:hover {
+    background-color: transparent;
+    color: #2A0000;
+    border: 1.5px solid #2A0000;
 }
