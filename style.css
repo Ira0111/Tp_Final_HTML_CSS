@@ -13,7 +13,7 @@ body {
     padding: 0;
 }
 
-header section {
+header section.haut {
     background-image: url(./Images/background.png);
     background-size: cover;
     image-rendering: auto;
@@ -24,14 +24,14 @@ header section {
 }
 
 
-header section nav {
+header section.haut nav {
     display: flex;
     align-items: center;
     padding-top: 50px;
     gap: 300px;
 }
 
-header section nav h1 {
+header section.haut nav h1 {
     font-family: "Playfair Display", serif;
     font-size: 32px;
     margin: 0;
@@ -39,25 +39,25 @@ header section nav h1 {
     font-weight: bold;
 }
 
-header section nav ul {
+header section.haut nav ul {
     list-style: none;
     display: flex;
     gap: 45px;
 }
 
-header section nav img {
+header section.haut nav img {
     display: flex;
     justify-content: end;
 }
 
-header section nav ul li a {
+header section.haut nav ul li a {
     list-style: none;
     text-decoration: none;
     color: white;
     font-family: "PoppinsMedium", sans-serif;
 }
 
-header section h2 {
+header section.haut h2 {
     font-family: "Outfit", sans-serif;
     font-size: 20px;
     letter-spacing: 20%;
@@ -66,7 +66,7 @@ header section h2 {
     padding: 140px 0 0 150px;
 }
 
-header section h3 {
+header section.haut h3 {
     font-family: "Playfair Display", serif;
     font-weight: bold;
     font-size: 72px;
@@ -78,7 +78,7 @@ header section h3 {
     padding: 30px 0 46px 150px;
 }
 
-header section p {
+header section.haut p {
     font-family: "Outfit", sans-serif;
     font-size: 18px;
     width: 431px;
@@ -87,7 +87,7 @@ header section p {
     padding: 0 150px;
 }
 
-header section .btn a {
+header section.haut .btn a {
     margin: 46px 0 0 150px;
     padding: 10px 20px;
     font-size: 18px;
@@ -105,8 +105,16 @@ header section .btn a {
     justify-content: center;
 }
 
-header section .btn a:hover {
+header section.haut .btn a:hover {
     background-color: transparent;
     color: white;
     border: 1px solid white;
+}
+header section.bas {
+    margin: 0;
+    padding: 50px 300px;
+    background-color:#E2D9C8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
