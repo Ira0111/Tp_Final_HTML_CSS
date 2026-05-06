@@ -18,8 +18,8 @@ header section.haut {
     background-size: cover;
     image-rendering: auto;
     color: white;
-    width: 100%;
-    height: 100%;
+    width: auto;
+    height: 865px;
     padding-bottom: 50px;
 }
 
@@ -140,15 +140,17 @@ main h2 {
     padding: 70px;
 }
 
-.group1 {
+main .group1 {
     display: flex;
     flex-wrap: wrap;
-    gap: 50px;
-    justify-content: center;
-
+    justify-content: space-around;
+    align-items: center;
+    gap: 3px;
+    margin: 0;
+    
 }
 
-main div article {
+main .group1 article {
     display: flex;
     flex-direction: column;
     border: 1.5px solid #E2D9C8;
@@ -161,12 +163,12 @@ main div article {
     border-radius: 18px;
 }
 
-main div article img {
+main .group1 article img {
     width: 334px;
     height: auto;
 }
 
-main div article h3 {
+main .group1 article h3 {
     font-family: "Outfit", serif;
     font-weight: 600;
     font-size: 38px;
@@ -175,7 +177,7 @@ main div article h3 {
     padding: 0;
 }
 
-main div article h4 {
+main .group1 article h4 {
     font-family: "Outfit", serif;
     font-size: 20px;
     font-weight: normal;
@@ -184,14 +186,14 @@ main div article h4 {
     margin: 0;
 }
 
-main div article div {
+main .group1 article div {
     display: flex;
     flex-direction: row;
     justify-content: space-between  ;
     justify-content: center;
 }
 
-main div article div p {
+main .group1 article div p {
     font-family: "PoppinsMedium", serif;
     font-size: 20px;
     font-weight: bold;
@@ -200,7 +202,7 @@ main div article div p {
     margin: 0;
 }
 
-main div article div .btn2 a {
+main .group1 article div .btn2 a {
     font-size: 14px;
     font-family: "Outfit", sans-serif;
     color: white;
@@ -217,8 +219,9 @@ main div article div .btn2 a {
     justify-content: center;
 }
 
-main div article div .btn2 a:hover {
+main .group1 article div .btn2 a:hover {
     background-color: transparent;
     color: #2A0000;
     border: 1.5px solid #2A0000;
 }
+
