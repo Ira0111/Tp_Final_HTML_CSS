@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Spline+Sans:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@font-face {
+    font-family: "PoppinsMedium";
+    src: url("./assets/fonts/Poppins-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(./Images/background.png);
+    background-size: cover;
+    image-rendering: auto;
+    color: white;
+    width: 100%;
+    height: auto;
+}
+
+
+header nav {
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    gap: 300px;
+}
+
+header nav h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 32px;
+    margin: 0;
+    padding: 0 0 0 150px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 45px;
+}
+
+header nav img {
+    display: flex;
+    justify-content: end;
+}
+
+header nav ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-family: "PoppinsMedium", sans-serif;
+}
+
+header h2 {
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    letter-spacing: 20%;
+    font-weight: 400;
+    margin: 0;
+    padding: 140px 0 0 150px;
+}
+
+header h3 {
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-size: 72px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 557px;
+    height: auto;
+    margin: 0;
+    padding: 30px 0 46px 150px;
+}
+
+header p {
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    width: 431px;
+    height: auto;
+    margin: 0;
+    padding: 0 150px;
+}
+
+header .btn a {
+    margin: 46px 0 0 150px;
+    font-size: 18px;
+    border: 1px solid white;
+    background-color: white;
+    padding: 10px 20px;
+    font-family: "Outfit", sans-serif;
+    color: black;
+    text-decoration: none;
+    display: block;
+    height: 55px;
+    width: 170px;
+    border-radius: 20%;
+}
