@@ -212,7 +212,7 @@ main .group1 article div .btn2 a {
     height: 40px;
     width: 130px;
     background-color: #2A0000;
-    border: 1px solid transparent;
+    border: 1.5px solid transparent;
     border-radius: 8px;
     display: flex;
     align-items: center;
